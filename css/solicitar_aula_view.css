@@ -1,0 +1,126 @@
+.table-overflow {
+    /* max-height: 450px;
+    max-width: ; */
+    overflow-y: auto;
+}
+
+.time-slot {
+    height: 40px;
+    /* padding: 5px; */
+}
+
+.disponible {
+    background-color: #0049aee1;
+    color: white;
+    border-radius: 5px;
+    margin: 0px 0px 3px 0px;
+    padding: 0px 3px 0px 3px;
+}
+
+.disponible:hover {
+    background-color: #001d46;
+    cursor: pointer;
+}
+
+.ocupada {
+    background-color: #7c7c7cde;
+    color: white;
+    border-radius: 5px;
+    margin: 0px 0px 3px 0px;
+    padding: 0px 3px 0px 3px;
+}
+
+.pendiente {
+    background-color: #796100e2;
+    color: white;
+    border-radius: 5px;
+    margin: 0px 0px 3px 0px;
+    padding: 0px 3px 0px 3px;
+}
+
+.rechazada {
+    background-color: #750000e1;
+    color: white;
+    border-radius: 5px;
+    margin: 0px 0px 3px 0px;
+    padding: 0px 3px 0px 3px;
+}
+
+.aprobada {
+    background-color: #008000dd;
+    color: white;
+    border-radius: 5px;
+    margin: 0px 0px 3px 0px;
+    padding: 0px 3px 0px 3px;
+}
+
+.bloqueado {
+    background-color: #cececede;
+    cursor: not-allowed;
+    color: #7e7e7e;
+    border-radius: 5px;
+    margin: 0px 0px 3px 0px;
+    padding: 0px 3px 0px 3px;
+}
+
+.bg-pendiente {
+    background-color: #796100e2;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.bg-rechazada {
+    background-color: #750000e1;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.bg-aprobada {
+    background-color: #008000dd;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.card {
+    margin-bottom: 5px;
+    /* Ajustar el margen según tu preferencia */
+}
+
+.badge-disponible {
+    background-color: #0049aee1;
+    color: white;
+    font-weight: 500;
+}
+
+.badge-ocupada {
+    background-color: #7c7c7cde;
+    color: white;
+    font-weight: 500;
+}
+
+.badge-aprobada {
+    background-color: #008000dd;
+    color: white;
+    font-weight: 500;
+}
+
+.badge-pendiente {
+    background-color: #796100e2;
+    color: white;
+    font-weight: 500;
+}
+
+.badge-rechazada {
+    background-color: #750000e1;
+    color: white;
+    font-weight: 500;
+}
+
+.badge-bloqueado {
+    background-color: #cececede;
+    color: #7e7e7e;
+    font-weight: 500;
+}

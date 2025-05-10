@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="icons/style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="grid.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-wrapper theme09">
+        <div class="main-container">
+            <div class="main-header">
+                <div>
+                    <span id="toggle-menu" class="icon-menu"></span>
+                    HEADER
+                </div>
+            </div>
+            <div class="main-body">
+                <x-menu id="menu">
+                    <div slot="header">Bienvenido Samuel</div>
+                    <div slot="footer"></div>
+                    <!-- <div class="menu-group" active="false">
+                        <div class="menu-title wave">OPCIONES</div>
+                        <div class="menu-options">
+                            <div class="menu-option wave" id="op1">OPCION 1</div>
+                            <div class="menu-option wave" id="op2">OPCION 2</div>
+                            <div class="menu-option wave" id="op3">OPCION 3</div>
+                            <div class="menu-group" active="false">
+                                <div class="menu-title wave">OPCIONES</div>
+                                <div class="menu-options">
+                                    <div class="menu-option wave" id="op4">OPCION 1</div>
+                                    <div class="menu-option wave" id="op5">OPCION 2</div>
+                                    <div class="menu-option wave" id="op6">OPCION 3</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-group" active="false">
+                        <div class="menu-title wave">OPCIONES</div>
+                        <div class="menu-options">
+                            <div class="menu-option wave" id="op7">OPCION 1</div>
+                            <div class="menu-option wave" id="op8">OPCION 2</div>
+                            <div class="menu-option wave" id="op9">OPCION 3</div>
+                        </div>
+                    </div> -->
+                </x-menu>
+                <div class="main-content">
+                    <x-tab>
+                        <div slot="items" class="tab-item wave" ref="Alumnos">ALUMNOS</div>
+                        <div slot="items" class="tab-item wave" ref="Materias">MATERIAS</div>
+                        <div slot="items" class="tab-item wave" ref="Grupos">GRUPOS</div>
+                        <div slot="items" class="tab-item wave" ref="Otros"disabled="true">OTROS</div>
+                        <div slot="tabs" id="Alumnos" class="container">
+                            <div class="content">
+                                <x-tab class="negative">
+                                    <div slot="items" class="tab-item wave wave-black" ref="Alumnos2">ALUMNOS</div>
+                                    <div slot="items" class="tab-item wave wave-black" ref="Materias2">MATERIAS</div>
+                                    <div slot="items" class="tab-item wave wave-black" ref="Grupos2">GRUPOS</div>
+                                    <div slot="items" class="tab-item wave wave-black" ref="Otros2"disabled="true">OTROS</div>
+                                    <div slot="tabs" id="Alumnos2" class="container">
+                                        <div class="content">
+                                            <div class="padder">
+                                                ALUMNOS
+                                                <div class="inpt-wrapper">
+                                                    <input type="text">
+                                                    <div class="inpt-under"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div slot="tabs" id="Materias2" class="container">
+                                        MATERIAS
+                                    </div>
+                                    <div slot="tabs" id="Grupos2" class="container">
+                                        GRUPOS
+                                    </div>
+                                </x-tab>
+                            </div>
+                        </div>
+                        <div slot="tabs" id="Materias" class="container">
+                            <div class="padder">
+                                MATERIAS
+                                <button id="abrirModal">abrir modal</button>
+                                <x-modal id="modal">
+                                    <p slot="title">TITULO</p>
+                                    <x-tab class="negative">
+                                        <div slot="items" class="tab-item wave wave-black" ref="Alumnos3">ALUMNOS</div>
+                                        <div slot="items" class="tab-item wave wave-black" ref="Materias3">MATERIAS</div>
+                                        <div slot="tabs" id="Alumnos3" class="container">
+                                            <div class="content">
+                                                <div class="padder">
+                                                    <div class="wgrid-sm-2">
+                                                        <div class="inpt-wrapper">
+                                                            <input type="text">
+                                                            <div class="inpt-under"></div>
+                                                        </div>
+                                                        <div class="inpt-wrapper">
+                                                            <input type="text">
+                                                            <div class="inpt-under"></div>
+                                                        </div>
+                                                        <div class="inpt-wrapper">
+                                                            <input type="text">
+                                                            <div class="inpt-under"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div slot="tabs" id="Materias3" class="container">
+                                            <div class="content">
+                                                <div class="padder">
+                                                    <div class="inpt-wrapper">
+                                                        <input type="text">
+                                                        <div class="inpt-under"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </x-tab>
+                                    <button class="close" autofocus slot="footer">CERRAR</button>
+                                </x-modal>
+                            </div>
+                        </div>
+                        <div slot="tabs" id="Grupos" class="container">
+                            GRUPOS
+                        </div>
+                    </x-tab>
+                </div>
+            </div>
+            <div class="main-footer"><x-timer></x-timer></div>
+        </div>
+    </div>
+    <input id="last" type="text">
+    <script type="module" src="index.js"></script>
+    <script>
+        const abrir = document.getElementById("abrirModal");
+        abrir.addEventListener("click", () => {
+            const modal = document.getElementById("modal");
+            modal.open = true;
+            modal.onClose = () => {
+                alert();
+            }
+        });
+    </script>
+</body>
+</html>

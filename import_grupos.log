@@ -1,0 +1,73 @@
+==== Inicio de Importación ====
+Procesando grupo 0: ["11","TECNOLOGIA MULTIMEDIA","MARTES","9:00","11:00"]
+Materia: 11, Día: LU, Hora inicio: MARTES, Hora fin: 0900, Capacidad: 11:00
+Materia 11 asignada al ID: 20
+Grupo agregado con éxito: Se agregó el grupo para la materia 11 el día LU de MARTES - 9:00
+Procesando grupo 1: ["11","TECNOLOGIA MULTIMEDIA","JUEVES","9:00","11:00"]
+Materia: 11, Día: LU, Hora inicio: JUEVES, Hora fin: 0900, Capacidad: 11:00
+Grupo agregado con éxito: Se agregó el grupo para la materia 11 el día LU de JUEVES - 9:00
+==== Fin de Importación ====
+==== Inicio de Importación ====
+Procesando grupo 0: ["11","TECNOLOGIAS MULTIMEDIA","MIERCOLES","11:00","13:00"]
+Materia: 11, Día: LU, Hora inicio: MIERCOLES, Hora fin: 1100, Capacidad: 13:00
+Materia 11 asignada al ID: 20
+Grupo agregado con éxito: Se agregó el grupo para la materia 11 el día LU de MIERCOLES - 11:00
+Procesando grupo 1: ["11","TECNOLOGIAS MULTIMEDIA","VIERNES","11:00","14:00"]
+Materia: 11, Día: LU, Hora inicio: VIERNES, Hora fin: 1100, Capacidad: 14:00
+Grupo agregado con éxito: Se agregó el grupo para la materia 11 el día LU de VIERNES - 11:00
+==== Fin de Importación ====
+==== Inicio de Importación ====
+Procesando grupo 0: ["11","PROGRAMACION BASICA","Miercoles","6:00","8:00"]
+Materia: 11, Día: LU, Hora inicio: Miercoles, Hora fin: 0600, Capacidad: 8:00
+Materia 11 asignada al ID: 20
+Grupo agregado con éxito: Se agregó el grupo para la materia 11 el día LU de Miercoles - 6:00
+Procesando grupo 1: ["11","PROGRAMACION BASICA","Jueves","6:00","8:00"]
+Materia: 11, Día: LU, Hora inicio: Jueves, Hora fin: 0600, Capacidad: 8:00
+Grupo agregado con éxito: Se agregó el grupo para la materia 11 el día LU de Jueves - 6:00
+==== Fin de Importación ====
+==== Inicio de Importación ====
+Procesando grupo 0: ["11","PROGRAMACION BASICA","Miercoles","6:00","8:00"]
+Materia: 11, Día: LU, Hora inicio: Miercoles, Hora fin: 0600, Capacidad: 8:00
+Materia 11 asignada al ID: 20
+Grupo agregado con éxito: Se agregó el grupo para la materia 11 el día LU de Miercoles - 6:00
+Procesando grupo 1: ["11","111","Jueves","6:00","8:00"]
+Materia: 11, Día: LU, Hora inicio: Jueves, Hora fin: 0600, Capacidad: 8:00
+Grupo agregado con éxito: Se agregó el grupo para la materia 11 el día LU de Jueves - 6:00
+==== Fin de Importación ====
+==== Inicio de Importación ====
+Procesando grupo 0: ["11","PROGRAMACION BASICA","Miercoles","6:00","8:00"]
+Materia: 11, Día: LU, Hora inicio: Miercoles, Hora fin: 0600, Capacidad: 8:00
+Materia 11 asignada al ID: 20
+Grupo agregado con éxito: Se agregó el grupo para la materia 11 el día LU de Miercoles - 6:00
+Procesando grupo 1: ["11","PROGRAMACION BASICA","Jueves","6:00","8:00"]
+Materia: 11, Día: LU, Hora inicio: Jueves, Hora fin: 0600, Capacidad: 8:00
+Grupo agregado con éxito: Se agregó el grupo para la materia 11 el día LU de Jueves - 6:00
+==== Fin de Importación ====
+==== Inicio de Importación ====
+Procesando grupo 0: ["TECNOLOGIAS MULTIMEDIA","Jueves","11:00","13:00","11"]
+Materia: TECNOLOGIAS MULTIMEDIA, Día: JU, Hora inicio: 1100, Hora fin: 1300, Capacidad: 11
+Materia TECNOLOGIAS MULTIMEDIA asignada al ID: 49
+Grupo agregado con éxito: Se agregó el grupo para la materia TECNOLOGIAS MULTIMEDIA el día JU de 11:00 - 13:00
+Procesando grupo 1: ["TECNOLOGIAS MULTIMEDIA","Domingo","11:00","14:00","11"]
+Materia: TECNOLOGIAS MULTIMEDIA, Día: DO, Hora inicio: 1100, Hora fin: 1400, Capacidad: 11
+Grupo agregado con éxito: Se agregó el grupo para la materia TECNOLOGIAS MULTIMEDIA el día DO de 11:00 - 14:00
+==== Fin de Importación ====
+==== Inicio de Importación ====
+Procesando grupo 0: ["\tREDES COMPUTACIONALES","Jueves","11:00","13:00","11"]
+Materia: REDES COMPUTACIONALES, Día: JU, Hora inicio: 1100, Hora fin: 1300, Capacidad: 11
+Materia REDES COMPUTACIONALES asignada al ID: 3
+Grupo agregado con éxito: Se agregó el grupo para la materia REDES COMPUTACIONALES el día JU de 11:00 - 13:00
+Procesando grupo 1: ["\tREDES COMPUTACIONALES","Domingo","11:00","14:00","11"]
+Materia: REDES COMPUTACIONALES, Día: DO, Hora inicio: 1100, Hora fin: 1400, Capacidad: 11
+Grupo agregado con éxito: Se agregó el grupo para la materia REDES COMPUTACIONALES el día DO de 11:00 - 14:00
+==== Fin de Importación ====
+==== Inicio de Importación ====
+Procesando grupo 0: ["\tREDES COMPUTACIONALESS","Jueves","11:00","13:00","11"]
+Materia: REDES COMPUTACIONALESS, Día: JU, Hora inicio: 1100, Hora fin: 1300, Capacidad: 11
+Materia REDES COMPUTACIONALESS asignada al ID: 50
+Grupo agregado con éxito: Se agregó el grupo para la materia REDES COMPUTACIONALESS el día JU de 11:00 - 13:00
+Procesando grupo 1: ["\tREDES COMPUTACIONALSS","Domingo","11:00","14:00","11"]
+Materia: REDES COMPUTACIONALSS, Día: DO, Hora inicio: 1100, Hora fin: 1400, Capacidad: 11
+Materia REDES COMPUTACIONALSS asignada al ID: 51
+Grupo agregado con éxito: Se agregó el grupo para la materia REDES COMPUTACIONALSS el día DO de 11:00 - 14:00
+==== Fin de Importación ====
